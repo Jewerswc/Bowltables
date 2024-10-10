@@ -36,7 +36,7 @@ To ensure a fair and dynamic distribution of revenue, the platform allocates fun
 
 Where: 
 
-<img src="https://github.com/Jewerswc/Bowltables/blob/main/Screenshot%202024-10-10%20at%2018.27.46.png" width="300">
+<img src="https://github.com/Jewerswc/Bowltables/blob/main/Screenshot%202024-10-10%20at%2018.27.46.png" width="350">
 
 
 Explanation:
