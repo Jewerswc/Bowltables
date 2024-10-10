@@ -59,11 +59,11 @@ The revenue allocated to each article is proportional to its weight relative to 
 To effectively implement the monetization formula, accurate tracking of both Page Views (PV) and Average Interest Score (AIS) is essential.
 
 * Page Views (PV):
-** Method: Increment the PV count each time an article is accessed.
-** Storage: Maintain a counter associated with each article in the database.
+  * Method: Increment the PV count each time an article is accessed.
+  * Storage: Maintain a counter associated with each article in the database.
 * Average Interest Score (AIS):
-** Method: Aggregate user interactions such as ratings or feedback.
-** Calculation: Compute the average score based on collected data.
+  * Method: Aggregate user interactions such as ratings or feedback.
+  * Calculation: Compute the average score based on collected data.
 ** Storage: Store the AIS as a floating-point number associated with each article.
 ### 3.2 Backend Processing
 Subscriber Management:
