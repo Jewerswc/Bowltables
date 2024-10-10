@@ -1,4 +1,4 @@
-Monetization Model Documentation
+**Interesting Or Not Monetisation Module**
 
 Project Overview
 
