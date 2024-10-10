@@ -2,6 +2,8 @@
 
 Interesting Or Not implements a subscription-based monetisation model. The revenue generation strategy is dynamically influenced by two key metrics: Page Views (PV) and Average Interest Score (AIS) of each article. Subscribers are charged a fixed fee of £4.99 per month, and the revenue allocation per article is determined based on its performance and reader engagement.
 
+Interesting Or Not is reliant on the tenet that the writing of great long-form content, and how that is monetised, can and indeed should be decenteralised. The below sets out how we do that.
+
 ## 1. Monetization Model Overview
 
 ### 1.1 Subscription Structure
