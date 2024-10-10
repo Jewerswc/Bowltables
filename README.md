@@ -38,21 +38,19 @@ Where:
 </p>
 
 Explanation:
-* Total Monthly Revenue (TMR):
+* **Total Monthly Revenue (TMR):**
 Calculated by multiplying the number of active subscribers by the monthly subscription fee.
 
-* Weight Calculation:
+* **Weight Calculation:**
 For each article, calculate a weight as the product of its PV and AIS.
 <p align="center">
 <img src="https://github.com/Jewerswc/Bowltables/blob/main/Screenshot%202024-10-10%20at%2018.47.22.png" width="350">
 </p>
-* Proportional Allocation:
+* **Proportional Allocation:**
 The revenue allocated to each article is proportional to its weight relative to the total weight of all articles.
 <p align="center">
 <img src="https://github.com/Jewerswc/Bowltables/blob/main/Screenshot%202024-10-10%20at%2018.47.31.png" width="350">
 </p>
-Example Calculation:
-Assume the following:
 
 ## 3. Implementation Strategy
 
