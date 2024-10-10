@@ -1,8 +1,6 @@
-# Interesting Or Not Monetisation Module
+# Interesting Or Not Monetisation
 
-Project Overview
-
-This project implements a subscription-based monetization model tailored for content-driven platforms such as blogs, news outlets, or online publications. The revenue generation strategy is dynamically influenced by two key metrics: Page Views (PV) and Average Interest Score (AIS) of each article. Subscribers are charged a fixed fee of £4.99 per month, and the revenue allocation per article is determined based on its performance and reader engagement.
+Interesting Or Not implements a subscription-based monetisation model. The revenue generation strategy is dynamically influenced by two key metrics: Page Views (PV) and Average Interest Score (AIS) of each article. Subscribers are charged a fixed fee of £4.99 per month, and the revenue allocation per article is determined based on its performance and reader engagement.
 
 ## 1. Monetization Model Overview
 
