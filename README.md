@@ -17,11 +17,11 @@ All revenue is generated exclusively through user subscriptions. There is no bas
 **1.3 Revenue Allocation Factors**
 The revenue allocated to individual articles is determined by two primary factors:
 
-Page Views (PV):
+* Page Views (PV):
 Definition: The total number of times an article has been viewed by users.
 Significance: Indicates the popularity and reach of the content.
 
-Average Interest Score (AIS):
+* Average Interest Score (AIS):
 Definition: A metric representing the average engagement or interest level users have with an article.
 Calculation: Derived from user interactions such as ratings, comments, shares, and time spent reading.
 Significance: Reflects the quality and relevance of the content to the audience.
@@ -38,230 +38,20 @@ Where:
 
 
 Explanation:
-Total Monthly Revenue (TMR):
+* Total Monthly Revenue (TMR):
 Calculated by multiplying the number of active subscribers by the monthly subscription fee.
-TMR
-=
-Number of Subscribers
-×
-$
-4.99
-TMR=Number of Subscribers×$4.99
-Weight Calculation:
+
+* Weight Calculation:
 For each article, calculate a weight as the product of its PV and AIS.
-Weight
-i
-=
-PV
-i
-×
-AIS
-i
-Weight 
-i
-​	
- =PV 
-i
-​	
- ×AIS 
-i
-​	
  
-Proportional Allocation:
+* Proportional Allocation:
 The revenue allocated to each article is proportional to its weight relative to the total weight of all articles.
-Revenue
-i
-=
-TMR
-×
-(
-Weight
-i
-Total Weight
-)
-Revenue 
-i
-​	
- =TMR×( 
-Total Weight
-Weight 
-i
-​	
- 
-​	
- )
-Total Weight
-=
-∑
-j
-=
-1
-M
-Weight
-j
-Total Weight= 
-j=1
-∑
-M
-​	
- Weight 
-j
-​	
+
  
 Example Calculation:
 Assume the following:
 
-Number of Subscribers (N): 100
-Subscription Fee: $4.99/month
-Total Monthly Revenue (TMR):
-TMR
-=
-100
-×
-4.99
-=
-$
-499.00
-TMR=100×4.99=$499.00
-Articles:
-Article ID	Title	Page Views (PV)	Average Interest Score (AIS)
-1	Article A	150	4.5
-2	Article B	100	3.8
-3	Article C	200	4.2
-Calculations:
-
-Calculate Weights:
-Weight
-1
-=
-150
-×
-4.5
-=
-675
-Weight
-2
-=
-100
-×
-3.8
-=
-380
-Weight
-3
-=
-200
-×
-4.2
-=
-840
- 
-Weight 
-1
-​	
- 
-Weight 
-2
-​	
- 
-Weight 
-3
-​	
- 
-​	
-  
-=150×4.5=675
-=100×3.8=380
-=200×4.2=840
-​	
- 
-Total Weight:
-Total Weight
-=
-675
-+
-380
-+
-840
-=
-1895
-Total Weight=675+380+840=1895
-Allocate Revenue:
-Revenue
-1
-=
-499
-×
-(
-675
-1895
-)
-≈
-$
-178.03
-Revenue
-2
-=
-499
-×
-(
-380
-1895
-)
-≈
-$
-100.08
-Revenue
-3
-=
-499
-×
-(
-840
-1895
-)
-≈
-$
-220.89
- 
-Revenue 
-1
-​	
- 
-Revenue 
-2
-​	
- 
-Revenue 
-3
-​	
- 
-​	
-  
-=499×( 
-1895
-675
-​	
- )≈$178.03
-=499×( 
-1895
-380
-​	
- )≈$100.08
-=499×( 
-1895
-840
-​	
- )≈$220.89
-​	
- 
-Result:
-
-Article A: $178.03
-Article B: $100.08
-Article C: $220.89
-Total Allocated Revenue: $499.00
-3. Implementation Strategy
+**3. Implementation Strategy**
 
 3.1 Data Collection and Tracking
 To effectively implement the monetization formula, accurate tracking of both Page Views (PV) and Average Interest Score (AIS) is essential.
