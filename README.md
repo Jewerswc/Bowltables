@@ -315,12 +315,13 @@ Display article metrics (PV and AIS) if relevant to content creators or administ
 Dynamic Content Display:
 Adjust content visibility based on subscription status.
 Optionally, provide insights or dashboards for content performance.
-4. System Architecture
+
+**4. System Architecture**
 
 4.1 Data Models
-Subscriber Model:
+* Subscriber Model:
 Tracks user subscriptions and relevant details.
-Article Model:
+* Article Model:
 Stores article details, PV, AIS, and allocated revenue.
 Interaction Model:
 Captures user interactions that contribute to AIS (e.g., ratings, comments).
