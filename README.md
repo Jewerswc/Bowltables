@@ -12,7 +12,7 @@ Users pay a fixed monthly fee of £4.99 to access premium content on the platfor
 Primary Revenue Source:
 All revenue is generated exclusively through user subscriptions. There is no base revenue; the platform's income solely depends on the number of active subscribers.
 
-### 1.3 Revenue Allocation Factors**
+### 1.3 Revenue Allocation Factors
 The revenue allocated to individual articles is determined by two primary factors:
 
 **Page Views (PV):**
@@ -48,8 +48,9 @@ For each article, calculate a weight as the product of its PV and AIS.
 </p>
 * Proportional Allocation:
 The revenue allocated to each article is proportional to its weight relative to the total weight of all articles.
+<p align="center">
 <img src="https://github.com/Jewerswc/Bowltables/blob/main/Screenshot%202024-10-10%20at%2018.47.31.png" width="350">
- 
+</p>
 Example Calculation:
 Assume the following:
 
