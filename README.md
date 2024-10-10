@@ -28,7 +28,7 @@ Definition: A metric representing the average engagement or interest level users
 Calculation: Derived from user interactions such as ratings, comments, shares, and time spent reading.
 Significance: Reflects the quality and relevance of the content to the audience.
 
-**2. Revenue Allocation Formula**
+## 2. Revenue Allocation Formula
 
 To ensure a fair and dynamic distribution of revenue, the platform allocates funds to individual articles based on their performance metrics. The allocation is determined by the following formula:
 <p align="center">
@@ -55,7 +55,7 @@ The revenue allocated to each article is proportional to its weight relative to 
 Example Calculation:
 Assume the following:
 
-**3. Implementation Strategy**
+## 3. Implementation Strategy
 
 3.1 Data Collection and Tracking
 To effectively implement the monetization formula, accurate tracking of both Page Views (PV) and Average Interest Score (AIS) is essential.
@@ -111,7 +111,7 @@ Dynamic Content Display:
 Adjust content visibility based on subscription status.
 Optionally, provide insights or dashboards for content performance.
 
-**4. System Architecture**
+## 4. System Architecture
 
 4.1 Data Models
 * Subscriber Model:
@@ -139,7 +139,7 @@ Metrics Reporting:
 Provide endpoints to retrieve PV and AIS for articles.
 Revenue Reporting:
 Offer endpoints for administrators to view revenue allocations.
-5. Security and Best Practices
+## 5. Security and Best Practices
 
 5.1 Secure Data Handling
 Data Protection:
@@ -166,7 +166,8 @@ Data Protection Regulations:
 Ensure compliance with relevant regulations such as GDPR or CCPA.
 Payment Processing Standards:
 Adhere to PCI DSS standards when handling subscription payments.
-6. Testing and Validation
+
+## 6. Testing and Validation
 
 6.1 Unit Testing
 Objective:
@@ -180,7 +181,7 @@ Assess system performance under high load conditions to ensure scalability.
 6.4 User Acceptance Testing (UAT)
 Objective:
 Gather feedback from actual users to refine the subscription experience and revenue reporting.
-7. Documentation and Open Sourcing Considerations
+## 7. Documentation and Open Sourcing Considerations
 
 When open-sourcing this project, comprehensive documentation is crucial to guide contributors and users. Below are key components to include:
 
@@ -224,7 +225,7 @@ Environment Variables:
 Use placeholder values in configuration files and instruct users to set their own secure values.
 Secrets Management:
 Recommend best practices for managing API keys and other secrets, such as using environment variables or secret management services.
-8. Future Enhancements
+## 8. Future Enhancements
 
 8.1 Incorporate Additional Metrics
 User Engagement:
@@ -243,11 +244,11 @@ Implement real-time dashboards for administrators and content creators to monito
 8.5 Data Visualization
 Create comprehensive dashboards to visualize revenue distribution, content performance, and user engagement trends.
 
-9. Conclusion
+## 9. Conclusion
 
 This monetization model effectively balances rewarding content creators for both the popularity and the quality of their work. By relying solely on subscription revenue and allocating funds based on measurable engagement metrics, the platform fosters a sustainable and equitable ecosystem for creators and users alike.
 
-10. Contact and Support
+## 10. Contact and Support
 
 For further assistance, questions, or contributions, please reach out via the project's Issue Tracker or join the Community Forum.
 
