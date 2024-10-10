@@ -29,7 +29,7 @@ Significance: Reflects the quality and relevance of the content to the audience.
 
 To ensure a fair and dynamic distribution of revenue, the platform allocates funds to individual articles based on their performance metrics. The allocation is determined by the following formula:
 
-<img src="https://github.com/Jewerswc/Bowltables/blob/main/Screenshot%202024-10-10%20at%2018.25.41.png" width="100">
+<img src="https://github.com/Jewerswc/Bowltables/blob/main/Screenshot%202024-10-10%20at%2018.25.41.png" width="300">
 
 
 Where: 
