@@ -31,13 +31,13 @@ Significance: Reflects the quality and relevance of the content to the audience.
 **2. Revenue Allocation Formula**
 
 To ensure a fair and dynamic distribution of revenue, the platform allocates funds to individual articles based on their performance metrics. The allocation is determined by the following formula:
-
+<p align="center">
 <img src="https://github.com/Jewerswc/Bowltables/blob/main/Screenshot%202024-10-10%20at%2018.25.41.png" width="500">
-
+</p>
 Where: 
-
+<p align="center">
 <img src="https://github.com/Jewerswc/Bowltables/blob/main/Screenshot%202024-10-10%20at%2018.27.46.png" width="350">
-
+</p>
 
 Explanation:
 * Total Monthly Revenue (TMR):
@@ -45,9 +45,9 @@ Calculated by multiplying the number of active subscribers by the monthly subscr
 
 * Weight Calculation:
 For each article, calculate a weight as the product of its PV and AIS.
-
+<p align="center">
 <img src="https://github.com/Jewerswc/Bowltables/blob/main/Screenshot%202024-10-10%20at%2018.47.22.png" width="350">
- 
+</p>
 * Proportional Allocation:
 The revenue allocated to each article is proportional to its weight relative to the total weight of all articles.
 
