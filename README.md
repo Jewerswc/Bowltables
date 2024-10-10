@@ -1,9 +1,8 @@
-Monetization Strategy Documentation
-Project Overview
+Interesting Or Not Monetisation Formula
 
-This project implements a subscription-based monetization model tailored for content-driven platforms, such as blogs, news sites, or online publications. The revenue generation is dynamically influenced by user engagement metrics, specifically Page Views (PV) and Average Interest Scores (AIS) of each article. Subscribers are charged a fixed fee of $4.99 per month, and the revenue allocation per article is determined based on its performance and reader engagement.
+This sets out the implementation of Interesting Or Not's monetisation model. The revenue generation is dynamically influenced by user engagement metrics, specifically Page Views (PV) and Average Interest Scores (AIS) of each article. Subscribers are charged a fixed fee of £4.99 per month, and the revenue allocation per article is determined based on its performance and reader engagement.
 
-1. Monetization Model Overview
+**1. Monetization Model Overview**
 Subscription Fee:
 Each subscriber pays a flat rate of $4.99 per month to access premium content.
 Revenue Allocation Factors:
@@ -11,7 +10,8 @@ Page Views (PV): The total number of times an article is viewed.
 Average Interest Score (AIS): A metric representing the average engagement or interest level users have with an article, typically derived from user ratings or interactions.
 Revenue Distribution Formula:
 Revenue allocated to each article is a function of its PV and AIS, ensuring that more popular and engaging content contributes proportionally more to the overall revenue.
-2. Key Metrics Definition
+
+**2. Key Metrics Definition**
 Page Views (PV):
 Definition: Measures the frequency with which an article is accessed or viewed by users.
 Importance: Indicates the popularity and reach of the content.
@@ -179,9 +179,9 @@ Explanation:
 
 Weight Calculation: For each article, calculate a weight as the product of its PV and AIS.
 Proportional Allocation: The revenue allocated to each article is proportional to its weight relative to the total weight of all articles.
-4. Implementation Strategy
-a. Data Collection and Tracking
+**4. Implementation Strategy**
 
+a. Data Collection and Tracking
 Page Views (PV):
 Method: Increment the PV count each time an article is accessed.
 Storage: Maintain a counter associated with each article in the database.
@@ -189,8 +189,8 @@ Average Interest Score (AIS):
 Method: Aggregate user interactions such as ratings or feedback.
 Calculation: Compute the average score based on collected data.
 Storage: Store the AIS as a floating-point number associated with each article.
-b. Backend Processing
 
+b. Backend Processing
 Subscriber Management:
 Track the total number of active subscribers.
 Handle subscription sign-ups, renewals, and cancellations.
@@ -201,15 +201,16 @@ Allocate revenue to each article using the defined formula.
 Data Storage:
 Maintain records of revenue allocations per article for transparency and reporting.
 Optionally, store historical data for trend analysis and auditing.
-c. Frontend Integration
 
+c. Frontend Integration
 User Interface:
 Provide a subscription interface where users can sign up for the service.
 Display article metrics (PV and AIS) if relevant to content creators or administrators.
 Dynamic Content Display:
 Adjust content visibility based on subscription status.
 Optionally, provide insights or dashboards for content performance.
-5. System Architecture
+
+**5. System Architecture**
 Data Models:
 Subscriber Model: Tracks user subscriptions.
 Article Model: Stores article details, PV, AIS, and allocated revenue.
@@ -227,7 +228,8 @@ API Endpoints:
 Subscription Management: Handle user sign-ups, renewals, and cancellations.
 Metrics Reporting: Provide endpoints to retrieve PV and AIS for articles.
 Revenue Reporting: Offer endpoints for administrators to view revenue allocations.
-6. Security and Best Practices
+
+**6. Security and Best Practices**
 Secure Data Handling:
 Protect user data and subscription details using encryption and secure storage practices.
 Implement authentication and authorization to restrict access to sensitive endpoints.
@@ -243,7 +245,8 @@ Provide meaningful feedback to users in case of failures.
 Compliance:
 Ensure compliance with relevant data protection regulations (e.g., GDPR, CCPA).
 Adhere to payment processing standards (e.g., PCI DSS) when handling subscription payments.
-7. Testing and Validation
+
+**7. Testing and Validation**
 Unit Testing:
 Test individual components, such as the revenue calculation logic, to ensure accuracy.
 Integration Testing:
@@ -252,7 +255,8 @@ Performance Testing:
 Assess system performance under high load conditions to ensure scalability.
 User Acceptance Testing (UAT):
 Gather feedback from actual users to refine the subscription experience and revenue reporting.
-8. Documentation and Open Sourcing Considerations
+
+**8. Documentation and Open Sourcing Considerations**
 When open sourcing this project, it's essential to provide comprehensive documentation that guides contributors and users through the system's functionality without exposing sensitive information or proprietary code. Here's how to structure the documentation:
 
 a. README.md
