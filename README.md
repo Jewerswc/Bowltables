@@ -10,18 +10,20 @@ This project implements a subscription-based monetization model tailored for con
 Monthly Subscription Fee:
 Users pay a fixed monthly fee of £4.99 to access premium content on the platform. This subscription grants them unlimited access to all articles and exclusive features.
 
-**1.2 Revenue Generation**
+### 1.2 Revenue Generation
 Primary Revenue Source:
 All revenue is generated exclusively through user subscriptions. There is no base revenue; the platform's income solely depends on the number of active subscribers.
 
-**1.3 Revenue Allocation Factors**
+### 1.3 Revenue Allocation Factors**
 The revenue allocated to individual articles is determined by two primary factors:
 
-* Page Views (PV):
+**Page Views (PV):**
+
 Definition: The total number of times an article has been viewed by users.
 Significance: Indicates the popularity and reach of the content.
 
-* Average Interest Score (AIS):
+**Average Interest Score (AIS):**
+
 Definition: A metric representing the average engagement or interest level users have with an article.
 Calculation: Derived from user interactions such as ratings, comments, shares, and time spent reading.
 Significance: Reflects the quality and relevance of the content to the audience.
