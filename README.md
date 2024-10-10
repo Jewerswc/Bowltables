@@ -46,6 +46,7 @@ For each article, calculate a weight as the product of its PV and AIS.
 <p align="center">
 <img src="https://github.com/Jewerswc/Bowltables/blob/main/Screenshot%202024-10-10%20at%2018.47.22.png" width="350">
 </p>
+
 * **Proportional Allocation:**
 The revenue allocated to each article is proportional to its weight relative to the total weight of all articles.
 <p align="center">
