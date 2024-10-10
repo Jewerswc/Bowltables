@@ -31,9 +31,9 @@ To ensure a fair and dynamic distribution of revenue, the platform allocates fun
 
 <img src="https://github.com/Jewerswc/Bowltables/blob/main/Screenshot%202024-10-10%20at%2018.25.41.png" width="500">
 
-
 Where: 
-<img src="https://github.com/Jewerswc/Bowltables/blob/main/Screenshot%202024-10-10%20at%2018.27.46.png" width="500">
+
+<img src="https://github.com/Jewerswc/Bowltables/blob/main/Screenshot%202024-10-10%20at%2018.27.46.png" width="300">
 
 Revenue
 i
