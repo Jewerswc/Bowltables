@@ -20,6 +20,7 @@ The revenue allocated to individual articles is determined by two primary factor
 Page Views (PV):
 Definition: The total number of times an article has been viewed by users.
 Significance: Indicates the popularity and reach of the content.
+
 Average Interest Score (AIS):
 Definition: A metric representing the average engagement or interest level users have with an article.
 Calculation: Derived from user interactions such as ratings, comments, shares, and time spent reading.
