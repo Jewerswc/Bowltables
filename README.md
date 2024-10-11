@@ -69,10 +69,10 @@ To effectively implement the monetization formula, accurate tracking of both Pag
 ** Storage: Store the AIS as a floating-point number associated with each article.
 ### 3.2 Backend Processing
 * Subscriber Management:
- * Track the total number of active subscribers.
- * Handle subscription sign-ups, renewals, and cancellations.
+ ** Track the total number of active subscribers.
+ ** Handle subscription sign-ups, renewals, and cancellations.
 * Revenue Calculation:
- * Frequency: Monthly, aligning with the subscription billing cycle.
+ ** Frequency: Monthly, aligning with the subscription billing cycle.
 Process:
 Calculate TMR based on the current number of subscribers.
 Compute the total weight across all articles (
