@@ -100,6 +100,7 @@ j
 ​	
  )).
 Allocate revenue to each article using the defined formula.
+
 Data Storage:
 Maintain records of revenue allocations per article for transparency and reporting.
 Optionally, store historical data for trend analysis and auditing.
@@ -107,32 +108,33 @@ Optionally, store historical data for trend analysis and auditing.
 User Interface:
 Provide a subscription interface where users can sign up for the service.
 Display article metrics (PV and AIS) if relevant to content creators or administrators.
+
 Dynamic Content Display:
 Adjust content visibility based on subscription status.
 Optionally, provide insights or dashboards for content performance.
 
 ## 4. System Architecture
 
-4.1 Data Models
+### 4.1 Data Models
 * Subscriber Model:
 Tracks user subscriptions and relevant details.
 * Article Model:
 Stores article details, PV, AIS, and allocated revenue.
 Interaction Model:
 Captures user interactions that contribute to AIS (e.g., ratings, comments).
-4.2 Revenue Calculation Module
+### 4.2 Revenue Calculation Module
 Functionality:
 Implements the revenue allocation formula, ensuring fair distribution based on PV and AIS.
 Scheduling:
 Executes periodically (e.g., monthly) using cron jobs or task queues like Celery.
-4.3 Payment Integration
+### 4.3 Payment Integration
 Platform:
 Utilize Stripe or a similar payment gateway to handle subscriptions.
 Flow:
 Users subscribe via the frontend.
 Backend processes the subscription and updates subscriber counts.
 Revenue is calculated and allocated based on the formula.
-4.4 API Endpoints
+### 4.4 API Endpoints
 Subscription Management:
 Handle user sign-ups, renewals, and cancellations.
 Metrics Reporting:
@@ -141,27 +143,27 @@ Revenue Reporting:
 Offer endpoints for administrators to view revenue allocations.
 ## 5. Security and Best Practices
 
-5.1 Secure Data Handling
+### 5.1 Secure Data Handling
 Data Protection:
 Protect user data and subscription details using encryption and secure storage practices.
 Authentication and Authorization:
 Implement robust authentication mechanisms and restrict access to sensitive endpoints.
-5.2 Data Validation
+### 5.2 Data Validation
 Input Validation:
 Validate all incoming data, especially user inputs that affect PV and AIS calculations.
 Prevent Malicious Manipulation:
 Implement checks to prevent tampering with metrics.
-5.3 Scalability
+### 5.3 Scalability
 System Design:
 Ensure the system can handle increasing numbers of subscribers and articles without performance degradation.
 Database Optimization:
 Optimize queries and indexing for efficient data retrieval and processing.
-5.4 Error Handling
+### 5.4 Error Handling
 Comprehensive Logging:
 Implement thorough error logging to detect and resolve issues promptly.
 User Feedback:
 Provide meaningful feedback to users in case of failures or errors.
-5.5 Compliance
+### 5.5 Compliance
 Data Protection Regulations:
 Ensure compliance with relevant regulations such as GDPR or CCPA.
 Payment Processing Standards:
@@ -169,23 +171,23 @@ Adhere to PCI DSS standards when handling subscription payments.
 
 ## 6. Testing and Validation
 
-6.1 Unit Testing
+### 6.1 Unit Testing
 Objective:
 Test individual components, such as the revenue calculation logic, to ensure accuracy.
-6.2 Integration Testing
+### 6.2 Integration Testing
 Objective:
 Validate the end-to-end flow from subscription sign-up to revenue allocation.
-6.3 Performance Testing
+### 6.3 Performance Testing
 Objective:
 Assess system performance under high load conditions to ensure scalability.
-6.4 User Acceptance Testing (UAT)
+### 6.4 User Acceptance Testing (UAT)
 Objective:
 Gather feedback from actual users to refine the subscription experience and revenue reporting.
 ## 7. Documentation and Open Sourcing Considerations
 
 When open-sourcing this project, comprehensive documentation is crucial to guide contributors and users. Below are key components to include:
 
-7.1 README.md
+### 7.1 README.md
 Project Title and Description:
 Provide a brief overview of the project and its purpose.
 Features:
