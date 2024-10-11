@@ -201,7 +201,7 @@ Outline how others can contribute to the project, including code standards and s
 License:
 Specify the open-source license governing the project.
 
-7.2 CONTRIBUTING.md
+### 7.2 CONTRIBUTING.md
 Code of Conduct:
 Establish community guidelines for respectful and productive collaboration.
 Development Workflow:
@@ -209,7 +209,7 @@ Describe branching strategies, commit message conventions, and pull request proc
 Issue Reporting:
 Provide guidelines on how to report bugs or suggest features.
 
-7.3 Documentation Directory (/docs)
+### 7.3 Documentation Directory (/docs)
 Architecture Overview:
 Detailed explanation of the system architecture, including data models and modules.
 Monetization Strategy:
@@ -220,7 +220,8 @@ Deployment Guide:
 Instructions on deploying the application to production environments, including environment variable configurations and scaling considerations.
 Security Practices:
 Outline security measures implemented within the project to protect data and ensure compliance.
-7.4 Excluding Sensitive Information
+
+### 7.4 Excluding Sensitive Information
 .gitignore Configuration:
 Ensure that sensitive files, such as environment variable files (.env), are excluded from version control.
 Environment Variables:
@@ -229,21 +230,21 @@ Secrets Management:
 Recommend best practices for managing API keys and other secrets, such as using environment variables or secret management services.
 ## 8. Future Enhancements
 
-8.1 Incorporate Additional Metrics
+### 8.1 Incorporate Additional Metrics
 User Engagement:
 Time spent reading, number of interactions (likes, comments), and social shares.
 Content Quality:
 Editorial reviews or external ratings to refine the AIS metric.
-8.2 Implement Tiered Subscription Models
+### 8.2 Implement Tiered Subscription Models
 Offer different subscription tiers based on usage or access levels, allowing for more flexible revenue streams.
 
-8.3 Dynamic Pricing
+### 8.3 Dynamic Pricing
 Adjust subscription fees based on aggregate metrics or promotional strategies to optimize revenue.
 
-8.4 Real-Time Analytics
+### 8.4 Real-Time Analytics
 Implement real-time dashboards for administrators and content creators to monitor metrics and revenue allocations instantaneously.
 
-8.5 Data Visualization
+### 8.5 Data Visualization
 Create comprehensive dashboards to visualize revenue distribution, content performance, and user engagement trends.
 
 ## 9. Conclusion
