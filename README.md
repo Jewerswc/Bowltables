@@ -165,9 +165,9 @@ User Feedback:
 Provide meaningful feedback to users in case of failures or errors.
 ### 5.5 Compliance
 Data Protection Regulations:
-Ensure compliance with relevant regulations such as GDPR or CCPA.
+We ensure compliance with relevant regulations such as GDPR or CCPA.
 Payment Processing Standards:
-Adhere to PCI DSS standards when handling subscription payments.
+We adhere to PCI DSS standards when handling subscription payments.
 
 ## 6. Testing and Validation
 
